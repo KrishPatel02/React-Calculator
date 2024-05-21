@@ -1,0 +1,48 @@
+.calculator {
+    height: 100vh;
+    background-color: var(--mainBGColor);
+    color: var(--mainColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.calcInput {
+    display: grid;
+    grid-template-columns: 4fr 1.5fr;
+    gap: 1em;
+}
+
+.calButton Button {
+    color: var(--numBtnColor);
+}
+
+.calcBox {
+    background-color: var(--BGColor);
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    gap: 1em;
+}
+
+.calcButton {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.calcButton Button {
+    padding: 1.5em;
+}
+
+.signBtn {
+    color: var(--signBtnColor) !important;
+}
+
+.numBtn {
+    color: var(--numBtnColor) !important;
+}
+
+.mainBtn {
+    background-color: var(--mainBtnColor) !important;
+}

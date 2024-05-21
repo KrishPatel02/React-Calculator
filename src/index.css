@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainBGColor: Black;
+    --BGColor: rgb(255, 255, 255, 0.1);
+    --mainColor: white;
+    --mainBtnColor: #00ff62;
+    --numBtnColor: white;
+    --signBtnColor: rgb(255, 255, 255, 0.5);
+}
